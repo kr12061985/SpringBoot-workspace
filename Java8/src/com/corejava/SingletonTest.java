@@ -9,7 +9,7 @@ public class SingletonTest {
 		Test test1=Test.getiInstace();
 		System.out.println(test);
 		System.out.println(test1);
-		System.out.println ("first commnet dev2");
+		System.out.println ("first commnet dev222222222222");
 
 	}
 
