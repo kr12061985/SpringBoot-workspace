@@ -12,13 +12,14 @@ import java.util.stream.Stream;
 
 public class java8 {
 	public static void main(String[] args) {
+		System.out.println(" first comment kishore dev");
 		Employee e=new Employee("kishore",2000000);
 		Employee e1=new Employee("kishore",2000000);
 		
 		Map<Employee,Integer> m=new HashMap<Employee,Integer>();
 		m.put(e,1);
 		m.put(e1, 2);
-		
+		System.out.println(" second comment dev");
 		System.out.println(m.size());
 		for(Map.Entry<Employee,Integer> a:m.entrySet()) {
 			System.out.println(a.getKey()+" value "+a.getValue());
