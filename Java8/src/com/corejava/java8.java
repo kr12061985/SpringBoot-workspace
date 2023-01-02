@@ -57,6 +57,7 @@ public class java8 {
 		    Integer sum = list.stream()
 		    		  .collect(Collectors.summingInt(Integer::intValue));
 		    System.out.println("sum == "+sum);
+			System.out.println("kishore dev2");
 		    
 	}
 
